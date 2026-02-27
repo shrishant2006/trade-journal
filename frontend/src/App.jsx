@@ -4,7 +4,7 @@ import {
   getTrades,
   createTrade,
   deleteTradeApi
-} from "./api/tApi";
+} from "./api/tapi";
 
 function App() {
   const [trades, setTrades] = useState([]);
